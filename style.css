@@ -1,0 +1,31 @@
+body {
+    background-color: hsla(282, 100%, 50%, 0.228);
+}
+
+
+#countlabel{
+   display: block;
+   text-align: center;
+   font-size: 10em;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: white;
+   text-shadow: 0px 0px 4px rgb(0, 0, 0);
+}
+
+#buttoncontainer{
+    text-align: center;
+}
+
+.buttons{
+    border-style: none;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+}
+
+.buttons:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
